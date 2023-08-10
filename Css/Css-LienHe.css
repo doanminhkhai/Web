@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #ede9e9;
+    background-color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(22, 10, 10, 0.916);
+}
+
+.giua1 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    height: 150px;
+    max-height: 100%;
+
+
+}
+
+.giua2 {
+    display: block;
+}
+
+h1 {
+    font-size: 13px;
+    padding: 0 70px;
+    margin-top: -2px;
+}
+
+nav.tren {
+    position: absolute;
+    margin-top: -45px;
+    right: 29px;
+    transform: translate(-20%, -5%);
+    padding-bottom: 50px;
+    z-index: 1;
+}
+
+nav.tren a {
+    margin-right: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+
+.thaicong a:visited {
+    color: rgb(236, 231, 231);
+}
+
+h2 {
+    border-bottom: 1px solid #5c5c66;
+    padding-top: 10px;
+    width: 91%;
+    margin: 0 auto;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.giua {
+
+    margin: -30px -30px;
+    transform: translate(3%, -20%);
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f2eeee;
+    font-size: 20px;
+}
+
+header.cuoi {
+    background-color: #FFF;
+    color: #000;
+
+}
+
+nav.chu1 ul li a {
+    color: #000;
+    font-size: 11px;
+
+}
+
+nav.chu1 ul li {
+    font-size: 11px;
+}
+
+nav.chu1 ul h3 {
+    font-size: 12px;
+    margin-top: -50px;
+    margin-left: 150px;
+}
