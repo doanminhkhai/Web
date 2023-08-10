@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #ede9e9;
+    background-color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(22, 10, 10, 0.916);
+}
+.giua{
+  
+       
+        margin: -30px -5px;
+        
+        
+}
+.giua1 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    height: 130px;
+    top: 0;
+    padding-top: 33px;
+    box-sizing: border-box;
+    
+    
+}
+.giua2 {
+    display: block;
+    margin-top: -33px;
+    
+}
+
+h1 {
+    font-size: 13px;
+    padding: 0 70px;
+    margin-top: -2px;
+}
+
+nav.tren {
+    position: absolute;
+    margin-top: -45px;
+    right: 29px;
+    transform: translate(-20%, -5%);
+    padding-bottom: 50px;
+    z-index: 1;
+}
+
+nav.tren a {
+    margin-right: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+
+.thaicong a:visited {
+    color: rgb(236, 231, 231);
+}
+
+h2 {
+    border-bottom: 1px solid #5c5c66;
+    padding-top: 10px;
+    width: 91%;
+    margin: 0 auto;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f2eeee;
+    font-size: 20px;
+}
+
+
+
+
+
+.slide {
+    margin-top: -20px;
+}
+
+nav.slide {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+    margin-top: -50px;
+    animation: fading 5s infinite;
+}
+
+nav.slide img {
+    text-align: center;
+    max-width: 100%;
+
+
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+h3 {
+    align-self: auto;
+    margin-top: -600px;
+    font-size: 65px;
+}
+
+p {
+    align-self: auto;
+    font-size: 25px;
+    padding: -20px 10px 20px;
+}
+
+a {
+    color: #000;
+}
+
+nav.carousel-caption {
+    text-align: left;
+    padding: 10px 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav.carousel-caption ul {
+    margin-top: 20px;
+}
+
+nav.carousel-caption h3 {
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    top: 20px;
+}
+
+.slide {
+    margin-top: -20px;
+}
+
+img .d-block w-100 {
+    transition: transform 0.25s;
+}
+
+.slider:hover img {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    position: absolute;
+    text-align: left;
+    margin-left: -10%;
+    bottom: -70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tim {
+    font-size: 20px;
+    padding: 0 1px;
+    list-style-type: none;
+    letter-spacing: 0.8px;
+
+}
+
+.tim li {
+    margin: 10px;
+    width: 280px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+
+}
+
+.tim li a {
+    text-decoration: none;
+}
+
+.carousel-control-prev {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+
+
+.list-person1 ul {
+    list-style: none;
+}
+
+.ist-person1 ul li a {
+    text-decoration: none;
+}
+
+
+#wrapper1 {
+    display: flex;
+    justify-content: center;
+}
+
+ul.list-person1 {
+    display: flex;
+}
+
+ul.list-person1 li img{
+    right: 0;
+   
+    top: 0;
+    left: 0;
+    max-width: 112vh;
+    max-height: 510vw;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+
+
+
+}
+
+ul.list-person1 li {
+    overflow: hidden;
+}
+
+
+ul.list-person1 li img {
+    display: block;
+    transition: all 0.3s ease-in-out;
+    /* Thêm hiệu ứng chuyển động */
+    filter: brightness(0.4);
+    /* Chỉnh độ sáng của ảnh */
+}
+
+ul.list-person1 li:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+
+}
+
+ul.list-person1 li  {
+    position: relative;
+    display: block;
+}
+
+
+
+.tranggiua {
+    background-color: #FFF;
+    margin-top: -80px;
+    position: relative;
+    /*đè hình*/
+
+}
+
+div.cananh1 h5 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 45px;
+    color: #000;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.timkiem2 {
+    text-align: center;
+    margin-top: -16px;
+    margin-left: -28px;
+}
+
+.timkiem2 li a {
+    font-size: 12px;
+
+}
+
+.cananh2 {
+    text-align: center;
+}
+
+div.cananh2 img {
+    width: 180vh;
+    height: 60vw;
+}
+
+ul.timkiem3 a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.tranggiua1 {
+    margin: 0;
+    overflow: hidden;
+    display: block;
+
+}
+
+div.cananh3 img {
+    width: 730px;
+    height: 650px;
+    margin-top: -20px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh3 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+
+}
+
+.chu3 {
+    position: relative;
+    margin-left: 200px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+div.cananh4 img {
+    width: 400px;
+    height: 650px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh4 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+}
+
+.cananh4 {
+    position: relative;
+    margin-left: 730px;
+    margin-top: -700px;
+}
+
+.chu4 {
+    position: relative;
+    margin-left: 140px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+div.cananh5 img {
+    width: 400px;
+    height: 650px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh5 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+}
+
+.cananh5 {
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -700px;
+}
+
+.chu5 {
+    position: relative;
+    margin-left: 140px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+
+div.cananh6 img {
+    position: relative;
+    width: 380px;
+    height: 650px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh6 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+}
+
+.cananh6 {
+    overflow: hidden;
+    margin-left: -20px;
+    margin-top: -45px;
+}
+
+.chu6 {
+    position: relative;
+    margin-left: 100px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+
+div.cananh7 img {
+    width: 370px;
+    height: 650px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh7 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+}
+
+.cananh7 {
+    position: relative;
+    overflow: hidden;
+    margin-left: 360px;
+    margin-top: -697px;
+}
+
+.chu7 {
+    position: relative;
+    margin-left: 40px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+div.cananh8 img {
+    width: 780px;
+    height: 657px;
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+    transition: filter 0.5s, transform 0.5s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+div.cananh8 img:hover {
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+    transform: scale(1.1);
+    /* Phóng to ảnh */
+}
+
+.cananh8 {
+    overflow: hidden;
+    position: relative;
+    margin-left: 730px;
+    margin-top: -699px;
+}
+
+.chu8 {
+    position: relative;
+    margin-left: 300px;
+    top: -90px;
+    font-size: 33px;
+}
+
+
+
+
+
+.tranggiua2 {
+    margin-top: -95px;
+    position: relative;
+
+}
+
+list-person ul {
+    list-style: none;
+}
+
+list-person ul li a {
+    text-decoration: none;
+}
+
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+ul.list-person {
+    display: flex;
+}
+
+ul.list-person li img {
+    max-width: 100%;
+
+}
+
+ul.list-person li {
+    overflow: hidden;
+    max-width: 850px;
+
+}
+
+
+ul.list-person li a img {
+    max-width: 100%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    /* Thêm hiệu ứng chuyển động */
+    filter: brightness(0.6);
+    /* Chỉnh độ sáng của ảnh */
+}
+
+ul.list-person li:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+    filter: brightness(1);
+    /* Tăng độ sáng của ảnh lên */
+
+}
+
+ul.list-person li a {
+    position: relative;
+    display: block;
+}
+
+ul.list-person li a .name {
+    position: absolute;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Can chỉnh chữ nằm giữa ảnh */
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+ul.list-person li a:hover .name {
+    bottom: 45%;
+    opacity: 1;
+}
+
+ul.list-person li a .name1 {
+    position: absolute;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    bottom: 0px;
+    left: 25%;
+    transform: translateX(-50%);
+    /* Can chỉnh chữ nằm giữa ảnh */
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    padding-left: 350px;
+}
+
+ul.list-person li a:hover .name1 {
+    bottom: 40%;
+    opacity: 1;
+}
+
+#cuoi h2 {
+    border-bottom: 1px solid #5c5c66;
+    padding-top: 10px;
+    width: 100%;
+}
+
+h6 {
+    font-size: 10px;
+    padding-left: 50px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+
+}
+
+.khaiquadeptrai {
+    padding-top: 10px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+}
+
+cuoi1 {
+    background-color: #000;
+}
