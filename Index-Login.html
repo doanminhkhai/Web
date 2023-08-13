@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Webpage thai cong</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/Css-Login.css">
+</head>
+
+<body>
+  <header class="giua1">
+    <header class="giua2">
+      <h1>THÁI CÔNG INTERIOR DESIGN | ONLINE STORE </h1>
+      <nav class="tren">
+        <a href="#"><i class="fa-solid fa-square-phone-flip fa-beat-fade"></i> HOTLINE: 0778000878</a>
+        <a href="#"><img src="img/ic_en.svg " alt=""> VIE</a>
+        <a href="#"><img src="img/ic_vn (1).svg " alt=""> ENG</a>
+        
+      </nav>
+      <h5></h5>
+    </header>
+
+    <header >
+      <nav class="giua">
+        
+        <ul>
+          <li class="thaicong"><a href="#" style="font-size: 28px ">T H Á I C Ô N G</a></li>
+          <li><a href="#">GIỚI THIỆU</a></li>
+          <li><a href="#">SÁCH</a></li>
+          <li><a href="Index-Thietke.html">THIẾT KẾ NỘI THẤT</a></li>
+          <li><a href="#">CÔNG TRÌNH</a></li>
+          <li><a href="#">CỬA HÀNG</a></li>
+          <li><a href="Index-LienHe.html">LIÊN HỆ</a></li>
+          <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-beat-fade"></i></a></li>
+
+        </ul>
+      </nav>
+    </header>
+  </header>
+  <header class="login">
+    <h2>Sign in/up Form</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="https://vi-vn.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Bạn làm con cặt gì mà quên mật khẩu rồi ? </a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>CHÀO MỪNG TRỞ LẠI!</h1>
+                    <p>ĐỂ TIẾP TỤC KẾT NỐI VỚI CHÚNG TÔI VUI LÒNG ĐĂNG NHẬP BẰNG THÔNG TIN CÁ NHÂN CỦA BẠN</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>CHÀO BẠN !</h1>
+                    <p>NHẬP THÔNG TIN CÁ NHÂN CỦA BẠN VÀ BẮT ĐẦU HÀNH TRÌNH VỚI CHÚNG TÔI</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+  <script>
+    const signUpButton = document.getElementById('signUp');
+    const signInButton = document.getElementById('signIn');
+    const container = document.getElementById('container');
+
+    signUpButton.addEventListener('click', () => {
+        container.classList.add('right-panel-active');
+    });
+
+    signInButton.addEventListener('click', () => {
+        container.classList.remove('right-panel-active');
+    });
+</script>

@@ -35,6 +35,7 @@ h1 {
     font-size: 13px;
     padding: 0 70px;
     margin-top: -2px;
+    margin-left: 15px;
 }
 
 nav.tren {
@@ -87,6 +88,7 @@ nav ul li a {
     font-size: 20px;
 }
 
+
 header.cuoi {
     background-color: #FFF;
     color: #000;
@@ -107,4 +109,57 @@ nav.chu1 ul h3 {
     font-size: 12px;
     margin-top: -50px;
     margin-left: 150px;
+}
+div.chu1 p{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 180px;
+}
+div.chu1 h3{
+    text-align: center;
+    margin-right: 430px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+div.chu1 h4{
+    position: relative;
+    letter-spacing: 0.8px;/* Chỉnh khoảng trống các kí tự của 1 chữ */
+    font-size: 15px;
+    line-height: 1.42857143;
+    margin-top: -45px;
+    font: 200;
+    text-align: justify center;
+    padding-left: 575px;
+   
+   
+
+}
+div.chu1 h4 br{
+    margin-right: 50px;
+}
+
+div.chu1 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000; 
+}
+
+div.chu1 ul{
+    text-align: center;
+    margin-left: -200px;
+    margin-top: -5px;
+}
+div.chu1 h2{
+    width: 21%;
+    margin: 0 auto;
+
+}
+
+div.chu2 h3{
+    text-align: center;
+    margin-right: 430px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    font-weight: lighter;
 }
